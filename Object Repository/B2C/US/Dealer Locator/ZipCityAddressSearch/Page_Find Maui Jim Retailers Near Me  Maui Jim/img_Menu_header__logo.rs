@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Menu_header__logo</name>
+   <tag></tag>
+   <elementGuidId>73b256e3-524c-42fa-8097-4e0e8049d869</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Maui Jim® logo link to homepage']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Maui Jim® logo link to homepage</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/medias/mauijim-brand-logo.png?context=bWFzdGVyfGltYWdlc3wxOTg4MXxpbWFnZS9wbmd8aW1hZ2VzL2g1Yi9oNDUvODgwOTMwNTgzMzUwMi5wbmd8MGNhNTExMWZjMzkxZjFkNzc4MTJmNjA2YjhiMWZiYWU2NWQyYzdjMGM2NzRiYTExYzdhYTNhYjI5M2NiZmNhMQ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header__logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths desktop landscape windows windows10 windows10_0 64bit chrome chrome81 chrome81_0 webkit en-us k-webkit k-webkit81&quot;]/body[@class=&quot;js-promo-bar-open js-header page-mjstorefinderPage pageType-ContentPage template-pages-storeFinder-storeFinderSearchPage pageLabel-mjstorefinder language-en_US&quot;]/header[@class=&quot;header&quot;]/div[@class=&quot;headroom headroom--top headroom--not-bottom&quot;]/a[@class=&quot;header__logo-wrapper&quot;]/img[@class=&quot;header__logo&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Maui Jim® logo link to homepage']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

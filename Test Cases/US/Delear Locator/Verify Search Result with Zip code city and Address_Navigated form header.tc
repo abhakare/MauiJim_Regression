@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Search Result with Zip code city and Address_Navigated form header</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9d3a610-23c6-47c0-bab0-73f69265a690</testCaseGuid>
+</TestCaseEntity>

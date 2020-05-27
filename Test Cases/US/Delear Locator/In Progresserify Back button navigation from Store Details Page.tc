@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>In Progresserify Back button navigation from Store Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7cde51b-90fd-4266-b12f-6fd33ae8dc0f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>94e79500-1c6d-4a3b-9441-614753905574</id>
+      <masked>false</masked>
+      <name>urlBack</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://b2cstorefront-stg1.mauijim.dev/retailers/CA/alberta/airdrie'</defaultValue>
+      <description></description>
+      <id>c1fd2f49-c03c-422d-b01d-1b887689132f</id>
+      <masked>false</masked>
+      <name>urlBackExpected</name>
+   </variable>
+</TestCaseEntity>
