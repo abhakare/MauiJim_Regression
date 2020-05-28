@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify_Store Details_Find Others Stores Nearby</name>
+   <name>Verify_Store Details_Find Others Stores Nearby navigation</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>302a2b0c-24a0-4183-b48d-688b875f954a</testCaseGuid>

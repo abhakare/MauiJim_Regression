@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_South Africa</name>
+   <name>button_Asia Pacific</name>
    <tag></tag>
-   <elementGuidId>e833a817-cb83-47b2-868e-15ad32e385f1</elementGuidId>
+   <elementGuidId>e9eec92b-bb53-489b-a8a0-05e86814a92c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='panel-africa']</value>
+         <value>//button[@id='tab-asia-pacific']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,50 +17,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>accordion-tabs__content js-accordion-tabs-content country-selector__region country-selector__region--africa 
-                           js-country-selector-region </value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>panel-africa</value>
+      <value>tab-asia-pacific</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-labelledby</name>
+      <name>class</name>
       <type>Main</type>
-      <value>tab-africa</value>
+      <value>accordion-tabs__tab js-accordion-tabs-tab js-country-selector-tab-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>aria-controls</name>
       <type>Main</type>
-      <value>tabpanel</value>
+      <value>panel-asia-pacific</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-tab</name>
       <type>Main</type>
-      <value>africa</value>
+      <value>asia-pacific</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-map</name>
+      <type>Main</type>
+      <value>/_ui/responsive/theme-mauijimb2c/images/world-map-asia-pacific.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>Asia Pacific</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,60 +81,69 @@
       <name>text</name>
       <type>Main</type>
       <value>
-									
-										
-													South Africa
-														
-											
-								</value>
+									Asia Pacific</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;retailerCountryData&quot;)/div[@class=&quot;js-country-selector-wrapper&quot;]/div[@class=&quot;country-selector js-country-selector&quot;]/div[@class=&quot;accordion-tabs accordion-tabs--country-selector js-accordion-tabs js-component-init&quot;]/div[@class=&quot;accordion-tabs__content-wrapper js-accordion-tabs-content-wrapper country-selector__tab&quot;]/div[@id=&quot;panel-africa&quot;]</value>
+      <value>id(&quot;retailerCountryData&quot;)/div[@class=&quot;js-country-selector-wrapper&quot;]/div[@class=&quot;country-selector js-country-selector&quot;]/div[@class=&quot;accordion-tabs accordion-tabs--country-selector js-accordion-tabs js-component-init&quot;]/div[@class=&quot;accordion-tabs__tabs&quot;]/button[@id=&quot;tab-asia-pacific&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='panel-africa']</value>
+      <value>//button[@id='tab-asia-pacific']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='retailerCountryData']/div/div/div[2]/div[4]/div</value>
+      <value>//div[@id='retailerCountryData']/div/div/div[2]/div/button[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Africa'])[2]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Middle East'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='United Kingdom'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Africa'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Middle East'])[2]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='North America'])[2]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Canada'])[1]/preceding::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Asia Pacific']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[2]/div[4]/div</value>
+      <value>//button[5]</value>
    </webElementXpaths>
 </WebElementEntity>

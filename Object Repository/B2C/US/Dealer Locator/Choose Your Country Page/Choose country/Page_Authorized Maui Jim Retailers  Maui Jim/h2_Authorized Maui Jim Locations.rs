@@ -3,7 +3,7 @@
    <description></description>
    <name>h2_Authorized Maui Jim Locations</name>
    <tag></tag>
-   <elementGuidId>b8e6cbaa-41fc-407a-bfe3-db4ce2b61c4f</elementGuidId>
+   <elementGuidId>62d767b8-1ae2-42c4-97e2-fcba6a5c3b2a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

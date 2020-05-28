@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Choose your country_country-selector__m_aafe37</name>
    <tag></tag>
-   <elementGuidId>86c1f77c-b159-4eee-a636-eaae4d31c1f3</elementGuidId>
+   <elementGuidId>49607221-69c3-44ba-a304-6dc31e959bb3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
