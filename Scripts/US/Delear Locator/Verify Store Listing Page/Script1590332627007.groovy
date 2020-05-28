@@ -32,20 +32,20 @@ WebUI.click(findTestObject('Page_Canada Authorized Retailers  Maui Jim/a_ALBERTA
 
 WebUI.click(findTestObject('Page_Alberta Authorized Retailers  Maui Jim/a_AIRDRIE'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreListPage/Page_Airdrie AB Authorized Retailers  Maui Jim/li_Airdrie'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/StoreListPage/li_Airdrie'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreListPage/Page_Airdrie AB Authorized Retailers  Maui Jim/h2_AIRDRIE AB'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/StoreListPage/h2_AIRDRIE AB'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreListPage/Page_Airdrie AB Authorized Retailers  Maui Jim/h3_Authorized Maui Jim Locations'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/StoreListPage/h3_Authorized Maui Jim Locations'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreListPage/Page_Airdrie AB Authorized Retailers  Maui Jim/input_Search_search-standalone-form__input'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/StoreListPage/input_Search_search-standalone-form__input'))
 
-WebUI.setText(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreListPage/Page_Airdrie AB Authorized Retailers  Maui Jim/input_Search_search-standalone-form__input'), 
+WebUI.setText(findTestObject('B2C/US/Dealer Locator/StoreListPage/input_Search_search-standalone-form__input'), 
     '')
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreListPage/Page_Airdrie AB Authorized Retailers  Maui Jim/span_Filter by'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/StoreListPage/span_Filter by'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreListPage/Page_Airdrie AB Authorized Retailers  Maui Jim/a_Store details'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/StoreListPage/a_Store details'))
 
 WebUI.closeBrowser()
 

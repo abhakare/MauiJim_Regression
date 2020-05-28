@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>In Progresserify Back button navigation from Store Details Page</name>
+   <name>In Progresserify_Query_Back button navigation from Store Details Page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c7cde51b-90fd-4266-b12f-6fd33ae8dc0f</testCaseGuid>

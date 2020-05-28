@@ -16,17 +16,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.mauijim.com/US/en_US?clear=true')
-
-WebUI.click(findTestObject('Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'))
-
-WebUI.click(findTestObject('Page_PolarizedPlus2 Sunglasses  Maui Jim/a_Browse retailers by country'))
-
-WebUI.click(findTestObject('Page_Authorized Maui Jim Retailers  Maui Jim/a_Canada'))
-
-WebUI.click(findTestObject('Page_Canada Authorized Retailers  Maui Jim/a_ALBERTA'))
-
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/Page_Alberta Authorized Retailers  Maui Jim/a_Change State'))
-
