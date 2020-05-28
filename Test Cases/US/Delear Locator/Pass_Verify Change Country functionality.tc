@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PVerify Change Country functionality</name>
+   <name>Pass_Verify Change Country functionality</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>04cc4aec-b5e9-4ba5-8f80-ee5eae123e85</testCaseGuid>

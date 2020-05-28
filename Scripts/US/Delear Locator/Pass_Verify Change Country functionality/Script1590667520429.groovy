@@ -20,19 +20,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/eyeglasses')
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Authorized Maui Jim Retailers  Maui Jim/button_Accept Cookies'))
-
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Maui Jim Eyeglasses  Maui Jim/a_Browse retailers by country'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'), 0)
+String object1 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/Change Country/Change_Country_Navigation/Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'))
 
+String object2 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/Change Country/Change_Country_Navigation/Header/Page_United States Authorized Retailers  Maui Jim/h2_United States'), 
+    'United States')
+
+if (object1 != object2) {
+    System.out.println('Not matching')
+}
+
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_United States Authorized Retailers  Maui Jim/a_Change Country'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Authorized Maui Jim Retailers  Maui Jim/a_Canada'), 0)
+String object3 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/Change Country/Change_Country_Navigation/Page_Authorized Maui Jim Retailers  Maui Jim/a_Canada'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Authorized Maui Jim Retailers  Maui Jim/a_Canada'))
+
+String object4 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/Change Country/Change_Country_Navigation/Header/Page_Canada Authorized Retailers  Maui Jim/h2_Canada'), 
+    'Canada')
+
+if (object3 != object4) {
+	System.out.println('Not matching')
+}
 
 WebUI.closeBrowser()
 

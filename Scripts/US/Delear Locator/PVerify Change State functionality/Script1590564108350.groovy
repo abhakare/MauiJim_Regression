@@ -18,15 +18,36 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.mauijim.com/US/en_US?clear=true')
+WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/eyeglasses')
 
-WebUI.click(findTestObject('Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'))
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Maui Jim Eyeglasses  Maui Jim/a_Browse retailers by country'))
 
-WebUI.click(findTestObject('Page_PolarizedPlus2 Sunglasses  Maui Jim/a_Browse retailers by country'))
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'))
 
-WebUI.click(findTestObject('Page_Authorized Maui Jim Retailers  Maui Jim/a_Canada'))
+String object1 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_ALABAMA'))
 
-WebUI.click(findTestObject('Page_Canada Authorized Retailers  Maui Jim/a_ALBERTA'))
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_ALABAMA'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/Page_Alberta Authorized Retailers  Maui Jim/a_Change State'))
+String object2 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/ChangeState/Header/Page_Alabama Authorized Retailers  Maui Jim/h2_ALABAMA'), 
+    'ALABAMA')
+
+if (object1 != object2) {
+    System.out.println('Not matching')
+}
+
+Strinhg object3 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
+
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Alabama Authorized Retailers  Maui Jim/a_Change State'))
+
+Strinhg object4 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/ChangeState/Header/Page_Nebraska Authorized Retailers  Maui Jim/h2_NEBRASKA'), 
+    '')
+
+if (object3 != object4) {
+	System.out.println('Not matching')
+}
+
+WebUI.setText(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/input_Search_search-standalone-form__input'), 
+    'b')
+
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
 
