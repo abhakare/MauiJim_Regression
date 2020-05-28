@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Page_Alberta Authorized Retailers  Maui Jim/a_AIRDRI
 
 WebUI.click(findTestObject('Page_Airdrie AB Authorized Retailers  Maui Jim/a_Store details'))
 
-WebUI.click(findTestObject('Object Repository/Page_Airdrie Eyecare Centre 5780  Maui Jim/input_Get Directions_button button--outlined'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DL_overlay_or text</name>
+   <name>span_2628 BEVERLY ST UNIT 9 DUNCAN BC V9L 5_2378d7</name>
    <tag></tag>
-   <elementGuidId>a73358dd-bfff-440a-b719-dc02e8afd569</elementGuidId>
+   <elementGuidId>93c06d31-97e6-46a8-9b2d-1aa07a25c46a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;search-header&quot;)/div[@class=&quot;row container-fluid region-background&quot;]/div[@class=&quot;no-text-right boxed-block&quot;]/div[@class=&quot;dl-search-or&quot;]/span[@class=&quot;show-on-landing or-str&quot;][count(. | //*[(text() = '
-                  or
-               ' or . = '
-                  or
-               ')]) = count(//*[(text() = '
-                  or
-               ' or . = '
-                  or
-               ')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='search-header']/div/div/div[3]/span</value>
+         <value>//main[@id='main-section']/div/div/div[2]/div/div/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -36,71 +24,76 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>show-on-landing or-str </value>
+      <value>view-dealer-details__address-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dealer-address</name>
+      <type>Main</type>
+      <value>2628 BEVERLY ST UNIT 9, DUNCAN, CA-BC, V9L 5C7, Canada</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                  or
-               </value>
+      <value>2628 BEVERLY ST UNIT 9, DUNCAN, BC, V9L 5C7, Canada</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search-header&quot;)/div[@class=&quot;row container-fluid region-background&quot;]/div[@class=&quot;no-text-right boxed-block&quot;]/div[@class=&quot;dl-search-or&quot;]/span[@class=&quot;show-on-landing or-str&quot;]</value>
+      <value>id(&quot;main-section&quot;)/div[@class=&quot;view-dealer-container&quot;]/div[@class=&quot;view-dealer-body&quot;]/div[@class=&quot;view-dealer-details&quot;]/div[@class=&quot;view-dealer-details__left-column&quot;]/div[@class=&quot;view-dealer-details__address&quot;]/div[@class=&quot;view-dealer-details__address-body&quot;]/div[@class=&quot;view-dealer-details__address-wrapper&quot;]/span[@class=&quot;view-dealer-details__address-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='search-header']/div/div/div[3]/span</value>
+      <value>//main[@id='main-section']/div/div/div[2]/div/div/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Store details'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find stores near you'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Directions'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEARCH STORES NEAR YOU'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='or']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='2628 BEVERLY ST UNIT 9, DUNCAN, BC, V9L 5C7, Canada']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/span</value>
+      <value>//div[2]/div/div/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>
