@@ -18,17 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.mauijim.com/US/en_US?clear=true')
+WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/eyeglasses')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Authorized Maui Jim Retailers  Maui Jim/button_Accept Cookies'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Maui Jim Eyeglasses  Maui Jim/a_Browse retailers by country'))
 
-WebUI.click(findTestObject('null'))
+WebUI.verifyElementPresent(findTestObject('Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'), 0)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_United States Authorized Retailers  Maui Jim/a_Change Country'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Authorized Maui Jim Retailers  Maui Jim/a_Canada'), 0)
+
+WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Authorized Maui Jim Retailers  Maui Jim/a_Canada'))
 
 WebUI.closeBrowser()
 
