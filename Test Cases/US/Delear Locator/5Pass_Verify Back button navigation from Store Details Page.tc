@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Pass_Verify Back button navigation from Store Details Page</name>
+   <name>5Pass_Verify Back button navigation from Store Details Page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c7cde51b-90fd-4266-b12f-6fd33ae8dc0f</testCaseGuid>

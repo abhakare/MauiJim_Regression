@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Accept Cookies</name>
    <tag></tag>
-   <elementGuidId>990044d7-82bb-459e-b255-cb072c9743e8</elementGuidId>
+   <elementGuidId>debc146d-6db2-4b8a-8031-b02a20eae086</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

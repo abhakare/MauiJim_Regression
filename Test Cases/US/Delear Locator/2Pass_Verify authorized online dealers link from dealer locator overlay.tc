@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Pass_Verify authorized online dealers link from dealer locator overlay</name>
+   <name>2Pass_Verify authorized online dealers link from dealer locator overlay</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a212ce48-db9c-4b0a-bc51-a1480c2db75b</testCaseGuid>

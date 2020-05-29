@@ -18,7 +18,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/eyeglasses')
+WebUI.delay(2)
+
+WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/')
+
+WebUI.waitForElementNotClickable(findTestObject('B2C/US/LogIn/Valid Login user/Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'), 
+    3)
+
+WebUI.click(findTestObject('Object Repository/B2C/US/LogIn/Valid Login user/Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'))
 
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Maui Jim Eyeglasses  Maui Jim/a_Browse retailers by country'))
 
@@ -35,15 +42,15 @@ if (object1 != object2) {
     System.out.println('Not matching')
 }
 
-Strinhg object3 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
+String object3 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
 
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Alabama Authorized Retailers  Maui Jim/a_Change State'))
 
-Strinhg object4 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/ChangeState/Header/Page_Nebraska Authorized Retailers  Maui Jim/h2_NEBRASKA'), 
+String object4 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/ChangeState/Header/Page_Nebraska Authorized Retailers  Maui Jim/h2_NEBRASKA'), 
     '')
 
 if (object3 != object4) {
-	System.out.println('Not matching')
+    System.out.println('Not matching')
 }
 
 WebUI.setText(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/input_Search_search-standalone-form__input'), 

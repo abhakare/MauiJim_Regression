@@ -20,6 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/eyeglasses')
 
+WebUI.waitForElementNotClickable(findTestObject('B2C/US/LogIn/Valid Login user/Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'), 
+    3)
+
+WebUI.click(findTestObject('Object Repository/B2C/US/LogIn/Valid Login user/Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'))
+
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/Change Country/Page_Maui Jim Eyeglasses  Maui Jim/a_Browse retailers by country'))
 
 String object1 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/Change Country/Change_Country_Navigation/Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'), 
@@ -45,7 +50,7 @@ String object4 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/C
     'Canada')
 
 if (object3 != object4) {
-	System.out.println('Not matching')
+    System.out.println('Not matching')
 }
 
 WebUI.closeBrowser()
