@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DL_Overlay_SearchBox</name>
+   <name>input_WELCOME TO OUR DEALER LOCATOR_places-search</name>
    <tag></tag>
-   <elementGuidId>6a364c6e-bef9-4c82-a51b-bed3070b1097</elementGuidId>
+   <elementGuidId>3a7aed6f-0910-4db8-80d1-a1ec8ac34417</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'places-search' and @type = 'text' and @placeholder = 'Zip code, address or city']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='places-search']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>search-standalone-form__input js-custom-search-input ui-autocomplete-input</value>
+      <value>search-standalone-form__input js-custom-search-input ui-autocomplete-input k-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>disabled</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,13 +109,6 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-busy</name>
-      <type>Main</type>
-      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

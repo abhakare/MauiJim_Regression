@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DL_overlay_or text</name>
+   <name>p_657-IRIS DUNCANis a Maui Jim authorized d_8b6fca</name>
    <tag></tag>
-   <elementGuidId>a73358dd-bfff-440a-b719-dc02e8afd569</elementGuidId>
+   <elementGuidId>f8ab0729-b47a-4187-8629-f67566dc5e09</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;search-header&quot;)/div[@class=&quot;row container-fluid region-background&quot;]/div[@class=&quot;no-text-right boxed-block&quot;]/div[@class=&quot;dl-search-or&quot;]/span[@class=&quot;show-on-landing or-str&quot;][count(. | //*[(text() = '
-                  or
-               ' or . = '
-                  or
-               ')]) = count(//*[(text() = '
-                  or
-               ' or . = '
-                  or
-               ')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='search-header']/div/div/div[3]/span</value>
+         <value>//main[@id='main-section']/div/div/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,14 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>show-on-landing or-str </value>
+      <value>view-dealer-heading__description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,63 +32,62 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                  or
-               </value>
+                  657-IRIS DUNCAN is a Maui Jim authorized dealer based in DUNCAN. Review the selection of Maui Jim sunglasses and eyeglasses below.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search-header&quot;)/div[@class=&quot;row container-fluid region-background&quot;]/div[@class=&quot;no-text-right boxed-block&quot;]/div[@class=&quot;dl-search-or&quot;]/span[@class=&quot;show-on-landing or-str&quot;]</value>
+      <value>id(&quot;main-section&quot;)/div[@class=&quot;view-dealer-container&quot;]/div[@class=&quot;view-dealer-body&quot;]/div[@class=&quot;view-dealer-heading&quot;]/p[@class=&quot;view-dealer-heading__description&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='search-header']/div/div/div[3]/span</value>
+      <value>//main[@id='main-section']/div/div/div/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Store details'])[1]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sunglasses with Prescription'])[1]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find stores near you'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEARCH STORES NEAR YOU'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Directions'])[1]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='or']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='657-IRIS DUNCAN is a Maui Jim authorized dealer based in DUNCAN. Review the selection of Maui Jim sunglasses and eyeglasses below.']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/span</value>
+      <value>//main/div/div/div/p</value>
    </webElementXpaths>
 </WebElementEntity>

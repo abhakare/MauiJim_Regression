@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DL_overlay_or text</name>
+   <name>a_Get Directions</name>
    <tag></tag>
-   <elementGuidId>a73358dd-bfff-440a-b719-dc02e8afd569</elementGuidId>
+   <elementGuidId>3a10f176-b863-4bf3-a45e-1571b0ce5abe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;search-header&quot;)/div[@class=&quot;row container-fluid region-background&quot;]/div[@class=&quot;no-text-right boxed-block&quot;]/div[@class=&quot;dl-search-or&quot;]/span[@class=&quot;show-on-landing or-str&quot;][count(. | //*[(text() = '
-                  or
-               ' or . = '
-                  or
-               ')]) = count(//*[(text() = '
-                  or
-               ' or . = '
-                  or
-               ')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='search-header']/div/div/div[3]/span</value>
+         <value>//main[@id='main-section']/div/div/div[2]/div[2]/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,14 +17,28 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>show-on-landing or-str </value>
+      <value>button button--primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://maps.google.com?saddr=Current+Location&amp;daddr=657-IRIS DUNCAN,2628 BEVERLY ST UNIT 9, DUNCAN, CA-BC, V9L 5C7, Canada</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,63 +46,69 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                  or
-               </value>
+                        Get Directions</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search-header&quot;)/div[@class=&quot;row container-fluid region-background&quot;]/div[@class=&quot;no-text-right boxed-block&quot;]/div[@class=&quot;dl-search-or&quot;]/span[@class=&quot;show-on-landing or-str&quot;]</value>
+      <value>id(&quot;main-section&quot;)/div[@class=&quot;view-dealer-container&quot;]/div[@class=&quot;view-dealer-body&quot;]/div[@class=&quot;view-dealer-details&quot;]/div[@class=&quot;view-dealer-details__right-column&quot;]/div[@class=&quot;view-dealer-details__map-actions&quot;]/a[@class=&quot;button button--primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='search-header']/div/div/div[3]/span</value>
+      <value>//main[@id='main-section']/div/div/div[2]/div[2]/div[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Get Directions')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report a map error'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Use'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find stores near you'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sunglasses'])[3]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEARCH STORES NEAR YOU'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sunglasses with Prescription'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='or']/parent::*</value>
+      <value>//a[contains(@href, 'https://maps.google.com?saddr=Current+Location&amp;daddr=657-IRIS DUNCAN,2628 BEVERLY ST UNIT 9, DUNCAN, CA-BC, V9L 5C7, Canada')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/span</value>
+      <value>//div[2]/div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>
