@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/eyeglasses')
+WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US')
 
 WebUI.waitForElementNotClickable(findTestObject('B2C/US/LogIn/Valid Login user/Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'), 
     3)
@@ -27,32 +27,32 @@ WebUI.click(findTestObject('Object Repository/B2C/US/LogIn/Valid Login user/Page
 
 WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Maui Jim Eyeglasses  Maui Jim/a_Browse retailers by country'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_Authorized Maui Jim Retailers  Maui Jim/a_United States'))
 
 String object1 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_ALABAMA'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_ALABAMA'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_ALABAMA'))
 
 String object2 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/ChangeState/Header/Page_Alabama Authorized Retailers  Maui Jim/h2_ALABAMA'), 
     'ALABAMA')
 
 if (object1 != object2) {
-    System.out.println('Not matching')
 }
 
-Strinhg object3 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
+WebUI.click(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_Alabama Authorized Retailers  Maui Jim/a_Change State'))
 
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_Alabama Authorized Retailers  Maui Jim/a_Change State'))
+WebUI.waitForElementClickable(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'), 
+    1)
 
-Strinhg object4 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/ChangeState/Header/Page_Nebraska Authorized Retailers  Maui Jim/h2_NEBRASKA'), 
+String object3 = WebUI.getText(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
+
+WebUI.click(findTestObject('B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
+
+String object4 = WebUI.verifyElementText(findTestObject('B2C/US/Dealer Locator/ChangeState/Header/Page_Nebraska Authorized Retailers  Maui Jim/h2_NEBRASKA'), 
     '')
 
 if (object3 != object4) {
-    System.out.println('Not matching')
 }
 
-WebUI.setText(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/input_Search_search-standalone-form__input'), 
-    'b')
-
-WebUI.click(findTestObject('Object Repository/B2C/US/Dealer Locator/ChangeState/States/Page_United States Authorized Retailers  Maui Jim/a_NEBRASKA'))
+WebUI.closeBrowser()
 
