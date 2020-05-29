@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Regression_MJ</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>1d02ed6f-fc35-4dea-b696-97b1d4a931ad</testSuiteGuid>
+   <testCaseLink>
+      <guid>b00bfb16-9f38-4b66-83d1-204142626a65</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/US/Delear Locator/Verify Login with test data</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c6292486-2c4b-4277-865d-21b5a79a3522</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login_Valid_user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c6292486-2c4b-4277-865d-21b5a79a3522</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>498a6d16-4456-4b20-bfb1-98c2a898007e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c6292486-2c4b-4277-865d-21b5a79a3522</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>719a34e3-c9b1-4f6e-babd-111ae12388a2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
