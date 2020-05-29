@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PVerify Change Country functionality</name>
+   <name>Pass_Verify Change State functionality</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>04cc4aec-b5e9-4ba5-8f80-ee5eae123e85</testCaseGuid>
+   <testCaseGuid>f66f5e23-33e1-4680-b65b-42b3b4e3e2b7</testCaseGuid>
 </TestCaseEntity>
