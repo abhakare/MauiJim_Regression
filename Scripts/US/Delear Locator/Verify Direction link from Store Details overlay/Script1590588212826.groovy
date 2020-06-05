@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.mauijim.com/US/en_US?clear=true')
 
-WebUI.click(findTestObject('B2C/US/AcceptCookies_Guest/button_Accept Cookies'))
+WebUI.click(findTestObject('B2C/US/New_AcceptCookies/button_Accept Cookies'))
 
 WebUI.doubleClick(findTestObject('Object Repository/B2C/US/Dealer Locator/StoreDetailDirection/Page_Find Maui Jim Retailers Near Me  Maui Jim/input_WELCOME TO OUR DEALER LOCATOR_places-search'))
 

@@ -20,37 +20,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.mauijim.com/US/en_US/')
 
-WebUI.click(findTestObject('null'))
+WebUI.deleteAllCookies()
 
-WebUI.click(findTestObject('B2C/US/Dealer Locator/New_Navigation From HomePage/a_Find a Retailer'))
+WebUI.click(findTestObject('Page_PolarizedPlus2 Sunglasses  Maui Jim/button_Accept Cookies'))
 
-WebUI.click(findTestObject('null'))
+WebDriver driver = DriverFactory.getWebDriver()
 
-def SearchResult = []
-def ExpectedSearchResult= []
-
-WebUI.setText(findTestObject('Object Repository/SearchFromoverlay/input_WELCOME TO OUR DEALER LOCATOR_places-search'), '11373')
-
-String SearchResult = (WebUI.getText(findTestObject('Object Repository/SearchFromoverlay/div_SearchList_Overlay'))
-
-	
-		
-def NumberofResults = SearchResult.size()
-
-for (int i = 0; i<NumberofResults; i++) 
-{
-	
-}
-
-
-SearchResult.push
-
-
-int returnedResults= WebUI.getText(findTestObject('Object Repository/SearchFromoverlay/div_SearchList_Overlay')). 
-WebUI.setText(findTestObject('null'), 
-    'Queens NY 11373 USA')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.closeBrowser()
-
+driver.findElement(By.xpath("//a[@class='footer__retailer-link']")).click()

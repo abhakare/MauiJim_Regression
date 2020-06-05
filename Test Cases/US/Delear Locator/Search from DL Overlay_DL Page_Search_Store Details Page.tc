@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search from DL Overlay_DL Page_Search_Store Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d5a7fcc-fada-45c1-81b4-a5a0d31be04e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('DealerLocatorFiles')</defaultValue>
+      <description></description>
+      <id>ca4567e8-e97a-4740-b0b8-f50a0277a8ae</id>
+      <masked>false</masked>
+      <name>searchKey</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DealerLocatorFiles')</defaultValue>
+      <description></description>
+      <id>7ba932a9-3264-4b0f-bdfa-0b3c6a89631c</id>
+      <masked>false</masked>
+      <name>FRP_URL_Expected</name>
+   </variable>
+   <variable>
+      <defaultValue>'Find Retailer Page validated'</defaultValue>
+      <description></description>
+      <id>8eb604f7-1797-4315-a616-d1ac2585b467</id>
+      <masked>false</masked>
+      <name>FRP_URL_Matched</name>
+   </variable>
+</TestCaseEntity>

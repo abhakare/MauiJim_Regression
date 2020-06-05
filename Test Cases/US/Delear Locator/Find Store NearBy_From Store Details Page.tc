@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find Store NearBy_From Store Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2ccc397-f8a3-4a20-a453-2d0eaed8119f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('B2C_DL/DLSearchKeys')</defaultValue>
+      <description></description>
+      <id>d619a20d-958a-466a-89b4-171712d4e37d</id>
+      <masked>false</masked>
+      <name>storeName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('B2C_DL/DLSearchKeys')</defaultValue>
+      <description></description>
+      <id>449de6e9-81e6-48e5-a25f-1974964795d1</id>
+      <masked>false</masked>
+      <name>Searchkey</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('B2C_DL/DLSearchKeys')</defaultValue>
+      <description></description>
+      <id>b0eb6a24-5874-4175-9a34-dc36c76fe458</id>
+      <masked>false</masked>
+      <name>StoreNamePage</name>
+   </variable>
+</TestCaseEntity>

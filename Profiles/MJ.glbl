@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>MJ</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.mauijim.com/US/en_US/'</initValue>
+      <name>prodEnv</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://b2cstorefront-stg1.mauijim.dev'</initValue>
+      <name>S1Env</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

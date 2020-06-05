@@ -26,10 +26,10 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/US/en_US/')
 
 'Wait for element to be visible'
-WebUI.waitForElementVisible(findTestObject('B2C/US/AcceptCookies_Guest/button_Accept Cookies'), 2)
+WebUI.waitForElementVisible(findTestObject('B2C/US/New_AcceptCookies/button_Accept Cookies'), 2)
 
 'Click on Accept cookies button'
-WebUI.click(findTestObject('B2C/US/AcceptCookies_Guest/button_Accept Cookies'))
+WebUI.click(findTestObject('B2C/US/New_AcceptCookies/button_Accept Cookies'))
 
 'Wait for elemnt to be clickable'
 WebUI.waitForElementClickable(findTestObject('B2C/US/Dealer Locator/DL overlay_Content/Find Retailer link/a_Find a Retailer'), 

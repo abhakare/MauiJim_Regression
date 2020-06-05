@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://b2cstorefront-stg1.mauijim.dev/')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('B2C/US/AcceptCookies_Guest/button_Accept Cookies'))
+WebUI.click(findTestObject('B2C/US/New_AcceptCookies/button_Accept Cookies'))
 
 WebUI.scrollToElement(findTestObject('B2C/US/Dealer Locator/Browse by Retailer/a_Browse retailers by country'), 2)
 

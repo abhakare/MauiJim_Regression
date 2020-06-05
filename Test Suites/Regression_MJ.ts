@@ -11,30 +11,51 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>1d02ed6f-fc35-4dea-b696-97b1d4a931ad</testSuiteGuid>
    <testCaseLink>
-      <guid>b00bfb16-9f38-4b66-83d1-204142626a65</guid>
+      <guid>f1a7b017-de20-4172-886d-2c8423bfda70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/US/Delear Locator/Verify Login with test data</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>c6292486-2c4b-4277-865d-21b5a79a3522</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Login_Valid_user</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/US/Delear Locator/Find Store NearBy_From Store Details Page</testCaseId>
       <variableLink>
-         <testDataLinkId>c6292486-2c4b-4277-865d-21b5a79a3522</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>498a6d16-4456-4b20-bfb1-98c2a898007e</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d619a20d-958a-466a-89b4-171712d4e37d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c6292486-2c4b-4277-865d-21b5a79a3522</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>719a34e3-c9b1-4f6e-babd-111ae12388a2</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>449de6e9-81e6-48e5-a25f-1974964795d1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0eb6a24-5874-4175-9a34-dc36c76fe458</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b101e3a9-6dbd-4fc4-acc5-ad77ba4c74fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/US/Delear Locator/Search from DL Overlay_DL Page_Search_Store Details Page</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ca4567e8-e97a-4740-b0b8-f50a0277a8ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ba932a9-3264-4b0f-bdfa-0b3c6a89631c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8eb604f7-1797-4315-a616-d1ac2585b467</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
