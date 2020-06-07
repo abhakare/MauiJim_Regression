@@ -13,24 +13,33 @@
    <testCaseLink>
       <guid>f1a7b017-de20-4172-886d-2c8423bfda70</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/US/Delear Locator/Find Store NearBy_From Store Details Page</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>085e3057-e336-43e2-af1d-fbaacbec9f07</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/B2C_DL/DLSearchKeys</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>085e3057-e336-43e2-af1d-fbaacbec9f07</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>StoreName</value>
          <variableId>d619a20d-958a-466a-89b4-171712d4e37d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>085e3057-e336-43e2-af1d-fbaacbec9f07</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Searchkey</value>
          <variableId>449de6e9-81e6-48e5-a25f-1974964795d1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>085e3057-e336-43e2-af1d-fbaacbec9f07</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>StoreNamePage</value>
          <variableId>b0eb6a24-5874-4175-9a34-dc36c76fe458</variableId>
       </variableLink>
    </testCaseLink>
@@ -56,6 +65,75 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>8eb604f7-1797-4315-a616-d1ac2585b467</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7652c6e9-ff81-403c-91b4-e9f1c9184056</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/US/Delear Locator/Get_Direction_page_with_Car</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/B2C_DL/GetDirectionData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Searchkey</value>
+         <variableId>e2bb633e-5920-4840-94e5-d6fab981ad57</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>storeName</value>
+         <variableId>28f9399b-f1ef-4f58-9e82-1d5171bfde6b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedDirectionPageName</value>
+         <variableId>8d69dd74-d24a-4f1c-9d19-5a78d2e4b785</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedlBackNavURL</value>
+         <variableId>7934f4ea-7406-4982-9aee-8290d534045f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>startingAddressKey</value>
+         <variableId>7fdde4d7-e697-421b-8f33-1ff960de0537</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>selectstartingAddress</value>
+         <variableId>8107d378-0f2a-4986-be0c-1601fff31a4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>route</value>
+         <variableId>099f2250-c307-4819-85f6-f02712ab9779</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>emailID</value>
+         <variableId>79429907-71e0-4d35-a005-aedf0f083424</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sentMessage</value>
+         <variableId>a262c44f-2ee5-4d27-8b50-11ea45f15a0d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -25,14 +25,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.S1Env)
+WebUI.navigateToUrl(GlobalVariable.prodEnv)
 
 CustomKeywords.'b2c_Keywords.DL_Overlay_nav.keyValue'()
 
 WebUI.focus(findTestObject('B2C/US/Dealer Locator/New_Navigation From HomePage/DL_overlay_search_box'))
 
-WebUI.sendKeys(findTestObject('B2C/US/Dealer Locator/New_Navigation From HomePage/DL_overlay_search_box'), Keys.chord(Searchkey, 
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('B2C/US/Dealer Locator/New_Navigation From HomePage/DL_overlay_search_box'), Keys.chord(Searchkey, Keys.ENTER))
 
 /*WebUI.sendKeys(findTestObject('B2C/US/Dealer Locator/New_Navigation From HomePage/DL_overlay_search_box'), Keys.chord(Searchkey, 
         Keys.ENTER))*/
