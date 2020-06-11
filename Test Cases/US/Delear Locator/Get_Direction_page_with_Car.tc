@@ -13,56 +13,56 @@
       <name>Searchkey</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>28f9399b-f1ef-4f58-9e82-1d5171bfde6b</id>
       <masked>false</masked>
       <name>storeName</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>8d69dd74-d24a-4f1c-9d19-5a78d2e4b785</id>
       <masked>false</masked>
       <name>expectedDirectionPageName</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>7934f4ea-7406-4982-9aee-8290d534045f</id>
       <masked>false</masked>
       <name>expectedlBackNavURL</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>7fdde4d7-e697-421b-8f33-1ff960de0537</id>
       <masked>false</masked>
       <name>startingAddressKey</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>8107d378-0f2a-4986-be0c-1601fff31a4d</id>
       <masked>false</masked>
       <name>selectstartingAddress</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>099f2250-c307-4819-85f6-f02712ab9779</id>
       <masked>false</masked>
       <name>route</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>79429907-71e0-4d35-a005-aedf0f083424</id>
       <masked>false</masked>
       <name>emailID</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('B2C_DL/GetDirectionData')</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>a262c44f-2ee5-4d27-8b50-11ea45f15a0d</id>
       <masked>false</masked>

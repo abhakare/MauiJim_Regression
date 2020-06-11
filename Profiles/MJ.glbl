@@ -14,4 +14,9 @@
       <initValue>'https://b2cstorefront-stg1.mauijim.dev'</initValue>
       <name>S1Env</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>45</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>StoreDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c96c6b0-a1f9-438c-a8e1-215704de43f7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0fcf946-6b95-4acf-92c0-5157554acfc5</id>
+      <masked>false</masked>
+      <name>continent</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51c38c23-6451-478d-860d-448c44e8ed47</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbfbb766-d089-4f92-8d8f-c1dce1c0a98a</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>994fce87-c065-4af0-8eb5-9c3dce79b5ae</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find A Retailer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b38f94ba-e5d5-4dbe-a9a6-4060504f9cd7</testCaseGuid>
+   <variable>
+      <defaultValue>'new york'</defaultValue>
+      <description></description>
+      <id>c3f581e3-7c18-48bd-8d17-a02323aa2dba</id>
+      <masked>false</masked>
+      <name>searchLocation</name>
+   </variable>
+</TestCaseEntity>

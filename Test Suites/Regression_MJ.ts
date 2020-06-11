@@ -74,7 +74,7 @@
       <testCaseId>Test Cases/US/Delear Locator/Get_Direction_page_with_Car</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</id>
+         <id>863a4375-f6d0-43de-b30b-140b67c87534</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -82,57 +82,57 @@
          <testDataId>Data Files/B2C_DL/GetDirectionData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Searchkey</value>
+         <value></value>
          <variableId>e2bb633e-5920-4840-94e5-d6fab981ad57</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>storeName</value>
+         <value></value>
          <variableId>28f9399b-f1ef-4f58-9e82-1d5171bfde6b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>expectedDirectionPageName</value>
+         <value></value>
          <variableId>8d69dd74-d24a-4f1c-9d19-5a78d2e4b785</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>expectedlBackNavURL</value>
+         <value></value>
          <variableId>7934f4ea-7406-4982-9aee-8290d534045f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>startingAddressKey</value>
+         <value></value>
          <variableId>7fdde4d7-e697-421b-8f33-1ff960de0537</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>selectstartingAddress</value>
+         <value></value>
          <variableId>8107d378-0f2a-4986-be0c-1601fff31a4d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>route</value>
+         <value></value>
          <variableId>099f2250-c307-4819-85f6-f02712ab9779</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>emailID</value>
+         <value></value>
          <variableId>79429907-71e0-4d35-a005-aedf0f083424</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2cc3079-d4d0-4b2a-a0b8-bc5fc7b3589b</testDataLinkId>
+         <testDataLinkId>863a4375-f6d0-43de-b30b-140b67c87534</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>sentMessage</value>
+         <value></value>
          <variableId>a262c44f-2ee5-4d27-8b50-11ea45f15a0d</variableId>
       </variableLink>
    </testCaseLink>
