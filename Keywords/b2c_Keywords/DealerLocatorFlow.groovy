@@ -14,6 +14,7 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -21,15 +22,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class addresses {
+public class DealerLocatorFlow {
 
 	@Keyword
-	public void addShippingAddress(){
-		
+	public void selectRoute(){
+		def routeXpath = "//ul[@id='routes-hook']/li[1]"
+		TestObject object = new TestObject(routeXpath)
+		object.addProperty("xpath", ConditionType.EQUALS, routeXpath, true)
+		WebUI.waitForElementVisible(object, 45)
+		WebUI.click(object)
 	}
-	
+
 	@Keyword
-	public void addBillingAddress(){
-		
+	public void clickOnGetDirectionButton(){
+		def buttonXpath = "//button[@aria-label='Get directions']"
+		TestObject object2 = new TestObject(buttonXpath)
+		object2.addProperty("xpath", ConditionType.EQUALS, buttonXpath, true)
+		WebUI.waitForElementVisible(object2, 45)
+		WebUI.click(object2)
+	}
+
+	@Keyword
+	public void selectStoreDL(){
+		def storeXpath = "//ul[@aria-label='Retailer']/li[1]"
+		TestObject object = new TestObject(storeXpath)
+		object.addProperty("xpath", ConditionType.EQUALS, storeXpath, true)
+		WebUI.waitForElementVisible(object, 45)
+		WebUI.click(object)
 	}
 }

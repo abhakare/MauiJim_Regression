@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='routes-hook_lv_active']/div</value>
+         <value>//li[@aria-label='I-80 E']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

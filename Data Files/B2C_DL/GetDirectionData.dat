@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>23012eca-d492-4b74-af2e-b87d0f63e86d</dataFileGUID>
-   <dataSourceUrl>C:\Katalon_WorkSpace\Data\GetDirectionData.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\Dell\Downloads\GetDirectionData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

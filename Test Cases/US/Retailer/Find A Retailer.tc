@@ -12,4 +12,25 @@
       <masked>false</masked>
       <name>searchLocation</name>
    </variable>
+   <variable>
+      <defaultValue>'manhattan'</defaultValue>
+      <description></description>
+      <id>d8909821-a837-4837-8a0c-b4d3cf8bc30e</id>
+      <masked>false</masked>
+      <name>startingLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>'az@gmail.com'</defaultValue>
+      <description></description>
+      <id>b43b4c2d-5f08-4946-914b-19b0e297ca17</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'brooklyn'</defaultValue>
+      <description></description>
+      <id>06ce045c-a15c-45fe-81d2-6870a98cf06e</id>
+      <masked>false</masked>
+      <name>startingLocationSecond</name>
+   </variable>
 </TestCaseEntity>
